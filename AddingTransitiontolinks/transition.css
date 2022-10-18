@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* Transition Styles */
+
+nav#topLinks a {
+   position: relative;	
+   color: rgb(224,207,191);
+   font-size: 1.5em;	
+   top: 0px;
+   left: 0px;
+   text-shadow: rgba(0, 0, 0, 1) -1px -1px 1px; 
+   transition: all 1.2s;
+}
+
+nav#topLinks a:hover {
+   font-size: 2.4rem;
+   top: -30px;
+   left: 12px;
+   position: relative;
+   color: rgb(224,207,191);
+   text-shadow: rgb(0 0 0 / 30%) 10px 10px 5px;
+
+   
+}
+
+
+
